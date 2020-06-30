@@ -76,6 +76,7 @@
 @import "layout/footer";
 
 .threeStepProcessContainer {
+  padding: 64px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -84,5 +85,7 @@
 .threeStepProcessColumn {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  border: 5px solid white;
+  padding: 32px 16px;
 }
