@@ -114,35 +114,53 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 /* Type */
-body, input, select, textarea {
+body,
+input,
+select,
+textarea {
   color: #ffffff;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16.5pt;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.65;
 }
 @media screen and (max-width: 1680px) {
-  body, input, select, textarea {
+  body,
+input,
+select,
+textarea {
     font-size: 13pt;
   }
 }
 @media screen and (max-width: 1280px) {
-  body, input, select, textarea {
+  body,
+input,
+select,
+textarea {
     font-size: 12pt;
   }
 }
 @media screen and (max-width: 980px) {
-  body, input, select, textarea {
+  body,
+input,
+select,
+textarea {
     font-size: 12pt;
   }
 }
 @media screen and (max-width: 736px) {
-  body, input, select, textarea {
+  body,
+input,
+select,
+textarea {
     font-size: 12pt;
   }
 }
 @media screen and (max-width: 480px) {
-  body, input, select, textarea {
+  body,
+input,
+select,
+textarea {
     font-size: 12pt;
   }
 }
@@ -210,20 +228,29 @@ a.special:not(.button):active:before {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-strong, b {
+strong,
+b {
   color: #ffffff;
   font-weight: 600;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
 p {
   margin: 0 0 2em 0;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #ffffff;
   font-family: Raleway, Helvetica, sans-serif;
   font-weight: 700;
@@ -231,15 +258,30 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 1em 0;
   text-transform: uppercase;
 }
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: inherit;
   text-decoration: none;
   border-bottom: 0;
 }
-h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
-  font-weight: 200;
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+  font-weight: 300;
 }
-h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+h1.major,
+h2.major,
+h3.major,
+h4.major,
+h5.major,
+h6.major {
   padding-bottom: 1em;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
@@ -1805,7 +1847,7 @@ input[type=radio] + label {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   text-transform: none;
   letter-spacing: 0;
-  font-weight: 300;
+  font-weight: 500;
   padding-left: 2.4em;
   padding-right: 0.75em;
   position: relative;
@@ -2734,7 +2776,7 @@ button,
   display: block;
   font-family: Raleway, Helvetica, sans-serif;
   font-size: 0.8em;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.1em;
   line-height: 1.85em;
   padding: 0.75em 0;
@@ -2859,7 +2901,7 @@ body.is-menu-visible #menu .inner {
   opacity: 1;
   font-family: Raleway, Helvetica, sans-serif;
   font-size: 1em;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.1em;
   line-height: 2;
   text-transform: uppercase;
@@ -2989,7 +3031,7 @@ body.is-preload #banner a {
 #wrapper > header p {
   font-family: Raleway, Helvetica, sans-serif;
   font-size: 1em;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.1em;
   line-height: 2;
   text-transform: uppercase;
