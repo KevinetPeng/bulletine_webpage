@@ -2720,4 +2720,20 @@ body.is-menu-visible #menu {
 html {
   scroll-behavior: smooth; }
 
+#topButton {
+  position: fixed;
+  bottom: -70px;
+  right: 24px;
+  border-radius: 22px;
+  padding: 0px 25px 0px 26px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bolder;
+  background-color: #ffa48d;
+  transition: 50ms;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.08); }
+
+#topButton:hover {
+  background-color: #fcb8a6; }
+
 /*# sourceMappingURL=main.css.map */

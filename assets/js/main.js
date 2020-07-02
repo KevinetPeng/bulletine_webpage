@@ -26,6 +26,17 @@
     }, 100);
   });
 
+  //Top button animations
+  $window.scroll(function () {
+    if ($window.scrollTop() >= 250) {
+      $("#topButton").animate({ display: "block" }, 0);
+      $("#topButton").animate({ bottom: "24px" }, 3);
+    } else {
+      $("#topButton").animate({ bottom: "-70px" }, 3);
+      $("#topButton").animate({ display: "none" }, 0);
+    }
+  });
+
   // Header.
   if ($banner.length > 0 && $header.hasClass("alt")) {
     $window.on("resize", function () {
