@@ -3,9 +3,9 @@
 
   $("#howItStarted").click(function (e) {
     e.stopPropagation();
-    if ($("#moreInfoHowItStarted").css("height") !== "100px") {
+    if ($("#moreInfoHowItStarted").css("height") !== "98px") {
       $("#moreInfoHowItStarted").animate({
-        height: 100,
+        height: 98,
       });
     } else {
       $("#moreInfoHowItStarted").animate({
@@ -18,9 +18,9 @@
 
   $("#howWeHelp").click(function (e) {
     e.stopPropagation();
-    if ($("#moreInfoHowWeHelp").css("height") !== "100px") {
+    if ($("#moreInfoHowWeHelp").css("height") !== "98px") {
       $("#moreInfoHowWeHelp").animate({
-        height: 100,
+        height: 98,
       });
     } else {
       $("#moreInfoHowWeHelp").animate({
