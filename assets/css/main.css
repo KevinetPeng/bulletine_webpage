@@ -118,7 +118,7 @@ body,
 input,
 select,
 textarea {
-  color: #ffffff;
+  color: #b45f4d;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16.5pt;
   font-weight: 500;
@@ -1840,7 +1840,7 @@ input[type=radio] {
 input[type=checkbox] + label,
 input[type=radio] + label {
   text-decoration: none;
-  color: #ffffff;
+  color: #b45f4d;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -2899,6 +2899,7 @@ body.is-menu-visible #menu .inner {
   -o-filter: blur(0);
   filter: blur(0);
   opacity: 1;
+  color: #ffffff;
   font-family: Raleway, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 300;
@@ -3430,6 +3431,12 @@ body.is-preload #banner a {
 }
 #footer .inner .copyright li a {
   color: inherit;
+}
+#footer .inner p {
+  color: #ffffff;
+}
+#footer .inner li {
+  color: #ffffff;
 }
 @media screen and (max-width: 1280px) {
   #footer {
