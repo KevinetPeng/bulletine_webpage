@@ -3513,7 +3513,8 @@ body.is-preload #banner a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px solid white;
+  border: 10px solid white;
+  border-radius: 16px;
   padding: 32px 16px;
 }
 
@@ -3555,7 +3556,6 @@ html {
 }
 
 .expandingPanel {
-  padding-bottom: 16px;
   height: 98px;
   overflow: hidden;
 }
