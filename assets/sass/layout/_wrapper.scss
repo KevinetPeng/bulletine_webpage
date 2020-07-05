@@ -143,7 +143,7 @@
   }
 
   .inner {
-    @include padding(8em, 0);
+    @include padding(5em, 0);
     margin: 0 auto;
     width: _size(inner);
   }
