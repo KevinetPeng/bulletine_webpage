@@ -106,7 +106,7 @@
 }
 
 .wrapper {
-  background-color: _palette(bg);
+  background-color: _palette(fg-light);
   position: relative;
   @include wrapper-edges-color(_palette(bg));
 
@@ -160,7 +160,7 @@
 
   &.spotlight {
     @include wrapper-edges-color(_palette(accent));
-    background-color: _palette(accent);
+    background-color: _palette(fg-light);
 
     .inner {
       @include vendor("display", "flex");
@@ -202,7 +202,7 @@
       $color: saturate(darken(_palette(accent), $j), $j * 0.5);
 
       &.style#{$i} {
-        background-color: $color;
+        //background-color: $color;
         @include wrapper-edges-color($color);
       }
     }

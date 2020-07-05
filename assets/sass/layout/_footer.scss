@@ -19,6 +19,11 @@
       width: 100%;
     }
 
+    h2 {
+      color: white;
+      border-bottom: solid 2px white;
+    }
+
     form {
       margin: 0 _size(section-spacing, large) 0 0;
       width: calc(50% - #{_size(section-spacing, large) * 0.5});

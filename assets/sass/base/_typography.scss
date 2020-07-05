@@ -10,7 +10,7 @@ body,
 input,
 select,
 textarea {
-  color: _palette(fg);
+  color: black;
   font-family: _font(family);
   font-size: 16.5pt;
   font-weight: _font(weight);
@@ -48,7 +48,7 @@ a {
 
   &:hover {
     border-bottom-color: transparent;
-    color: _palette(fg-bold) !important;
+    color: _palette(fg-bold);
   }
 
   &.special:not(.button) {
@@ -61,6 +61,7 @@ a {
     letter-spacing: _font(kern-heading);
     margin: 0 0 _size(element-margin) 0;
     text-transform: uppercase;
+    color: _palette(bg);
 
     &:before {
       @include vendor(
@@ -68,7 +69,7 @@ a {
         "background-color #{_duration(transition)} ease-in-out"
       );
       border-radius: 100%;
-      border: solid 2px _palette(border);
+      border: solid 2px _palette(bg);
       content: "\f105";
       display: inline-block;
       font-size: 1.25em;
@@ -83,13 +84,15 @@ a {
 
     &:hover {
       &:before {
-        background-color: _palette(bg);
+        color: white;
+        background-color: _palette(accent);
       }
     }
 
     &:active {
       &:before {
-        background-color: _palette(bg);
+        color: white;
+        background-color: _palette(accent);
       }
     }
   }
@@ -97,7 +100,7 @@ a {
 
 strong,
 b {
-  color: _palette(fg-bold);
+  color: _palette(bg);
   font-weight: _font(weight-bold);
 }
 
@@ -118,7 +121,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: _palette(fg-bold);
+  color: _palette(bg);
   font-family: _font(family-heading);
   font-weight: _font(weight-heading-bold);
   letter-spacing: _font(kern-heading);
@@ -137,8 +140,12 @@ h6 {
 
   &.major {
     padding-bottom: 1em;
-    border-bottom: solid 2px _palette(border);
+    border-bottom: solid 2px _palette(bg);
   }
+}
+
+h1 {
+  font-size: 1.6em;
 }
 
 h2 {

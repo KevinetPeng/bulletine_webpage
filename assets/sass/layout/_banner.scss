@@ -46,6 +46,7 @@
     font-size: 2.25em;
     margin-bottom: _size(element-margin) * 0.4;
     padding-bottom: _size(element-margin) * 0.2;
+    color: white;
   }
 
   p {
@@ -57,7 +58,7 @@
     @include vendor("transition-delay", "0.8s");
     @include vendor("filter", "blur(0)");
     opacity: 1;
-    color: _palette(fg-bold);
+    color: white;
     font-family: _font(family-heading);
     font-size: 1em;
     font-weight: _font(weight-heading);
@@ -74,7 +75,6 @@
     @include vendor("transform", "translateX(0)");
     @include vendor("transition-delay", "0.8s");
     @include vendor("filter", "blur(0)");
-    transition: 0.3s;
     opacity: 1;
   }
 
@@ -149,7 +149,7 @@
 
     a {
       opacity: 0;
-      @include vendor("transform", "translateX(0.75em)");
+      @include vendor("transform", "translateX(1em)");
       @include vendor("filter", "blur(2px)");
     }
   }
