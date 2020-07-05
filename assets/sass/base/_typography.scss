@@ -83,13 +83,13 @@ a {
 
     &:hover {
       &:before {
-        background-color: _palette(border-bg);
+        background-color: _palette(bg);
       }
     }
 
     &:active {
       &:before {
-        background-color: _palette(border2-bg);
+        background-color: _palette(bg);
       }
     }
   }
