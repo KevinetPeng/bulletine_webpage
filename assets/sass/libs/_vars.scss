@@ -12,7 +12,7 @@ $duration: (
 
 // Size.
 $size: (
-  border-radius: 5px,
+  border-radius: 10px,
   element-height: 2.75em,
   element-margin: 2em,
   inner: 55em,
@@ -53,7 +53,7 @@ $font: (
 
 // Palette.
 $palette: (
-  bg: #ffb4a2,
+  bg: #ec4067,
   fg: #b45f4d,
   fg-bold: #ffffff,
   fg-light: #ffffff,
@@ -61,5 +61,5 @@ $palette: (
   border-bg: rgba(255, 255, 255, 0.025),
   border2: rgba(255, 255, 255, 0.25),
   border2-bg: rgba(255, 255, 255, 0.075),
-  accent: #ffcdb2,
+  accent: #fcbf49,
 );
