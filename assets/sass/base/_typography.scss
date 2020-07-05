@@ -80,19 +80,15 @@ a {
       text-indent: 0.15em;
       vertical-align: middle;
       width: 2em;
+      transition: 0.3s;
     }
 
     &:hover {
       &:before {
-        color: white;
-        background-color: _palette(accent);
-      }
-    }
-
-    &:active {
-      &:before {
-        color: white;
-        background-color: _palette(accent);
+        //background-color: _palette(accent);
+        transform: rotate(90deg);
+        text-align: center;
+        vertical-align: middle;
       }
     }
   }
