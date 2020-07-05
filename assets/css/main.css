@@ -3251,6 +3251,12 @@ body.is-preload #banner a {
 .wrapper.spotlight.style6:after {
   box-shadow: inset 0 -1px 0 0 #f9a400, 0 1px 0 0 #f9a400;
 }
+.wrapper.threeStepSection h1 {
+  border-bottom: solid 2px #ec4067;
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 32px;
+}
 @media screen and (max-width: 980px) {
   .wrapper {
     margin: 4.75em 0;
@@ -3476,9 +3482,9 @@ body.is-preload #banner a {
 }
 
 .threeStepProcessHeading {
-  padding-top: 40px;
-  font-size: x-large;
-  text-align: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #threeStepContactButton {
