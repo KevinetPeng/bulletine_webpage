@@ -10,6 +10,15 @@
       $("#kevinParagraph").animate({
         height: heightKevin,
       });
+      $("#elsieParagraph").animate({
+        height: 98,
+      });
+      $("#jayParagraph").animate({
+        height: 98,
+      });
+      $("#jennParagraph").animate({
+        height: 98,
+      });
     }
   });
 
@@ -21,8 +30,17 @@
         height: 98,
       });
     } else {
+      $("#kevinParagraph").animate({
+        height: 98,
+      });
+      $("#elsieParagraph").animate({
+        height: 98,
+      });
       $("#jayParagraph").animate({
         height: heightJay,
+      });
+      $("#jennParagraph").animate({
+        height: 98,
       });
     }
   });
@@ -35,6 +53,15 @@
         height: 98,
       });
     } else {
+      $("#kevinParagraph").animate({
+        height: 98,
+      });
+      $("#elsieParagraph").animate({
+        height: 98,
+      });
+      $("#jayParagraph").animate({
+        height: 98,
+      });
       $("#jennParagraph").animate({
         height: heightJenn,
       });
@@ -49,8 +76,17 @@
         height: 98,
       });
     } else {
+      $("#kevinParagraph").animate({
+        height: 98,
+      });
       $("#elsieParagraph").animate({
         height: heightElsie,
+      });
+      $("#jayParagraph").animate({
+        height: 98,
+      });
+      $("#jennParagraph").animate({
+        height: 98,
       });
     }
   });
