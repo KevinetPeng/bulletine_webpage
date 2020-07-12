@@ -2724,6 +2724,27 @@ html {
   height: 98px;
   overflow: hidden; }
 
+.wrapper .panRight {
+  margin-right: 150px; }
+
+.wrapper .panLeft {
+  margin-left: 150px; }
+
+/*
+#banner {
+  background: rgb(255, 255, 255);
+}
+
+#banner .inner .bannerText {
+  color: black;
+}
+*/
+#contactBanner {
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.12); }
+
+#contactNav {
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.12); }
+
 @media screen and (max-width: 736px) {
   .threeStepProcessContainer {
     padding: 10px 64px 40px 64px;
@@ -2736,6 +2757,12 @@ html {
     margin-bottom: 8px; }
 
   h2 {
-    margin-bottom: 4px; } }
+    margin-bottom: 4px; }
+
+  .wrapper .panRight {
+    margin-right: auto; }
+
+  .wrapper .panLeft {
+    margin-left: auto; } }
 
 /*# sourceMappingURL=main.css.map */
