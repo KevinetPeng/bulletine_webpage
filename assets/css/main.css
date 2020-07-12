@@ -160,11 +160,7 @@ a {
     letter-spacing: 0.1em;
     margin: 0 0 2em 0;
     text-transform: uppercase;
-<<<<<<< HEAD
-    color: #9046cf; }
-=======
     color: #6444e7; }
->>>>>>> color-testing
     a.special:not(.button):before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
@@ -183,11 +179,7 @@ a {
       -o-transition: background-color 0.2s ease-in-out;
       transition: background-color 0.2s ease-in-out;
       border-radius: 100%;
-<<<<<<< HEAD
-      border: solid 2px #9046cf;
-=======
       border: solid 2px #6444e7;
->>>>>>> color-testing
       content: "\f105";
       display: inline-block;
       font-size: 1.25em;
@@ -206,11 +198,7 @@ a {
 
 strong,
 b {
-<<<<<<< HEAD
-  color: #9046cf;
-=======
   color: #6444e7;
->>>>>>> color-testing
   font-weight: 600; }
 
 em,
@@ -257,11 +245,7 @@ h6 {
   h5.major,
   h6.major {
     padding-bottom: 1em;
-<<<<<<< HEAD
-    border-bottom: solid 2px #9046cf; }
-=======
     border-bottom: solid 2px #6444e7; }
->>>>>>> color-testing
 
 h1 {
   font-size: 1.6em; }
@@ -1321,11 +1305,7 @@ textarea {
   input[type="tel"]:focus,
   select:focus,
   textarea:focus {
-<<<<<<< HEAD
-    border-color: #fbe34e; }
-=======
     border-color: #6892fd; }
->>>>>>> color-testing
 
 select {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.125)' /%3E%3C/svg%3E");
@@ -1337,11 +1317,7 @@ select {
   text-overflow: ellipsis; }
   select option {
     color: #ffffff;
-<<<<<<< HEAD
-    background: #9046cf; }
-=======
     background: #6444e7; }
->>>>>>> color-testing
   select:focus::-ms-value {
     background-color: transparent; }
   select::-ms-expand {
@@ -1398,11 +1374,7 @@ input[type="radio"] {
     input[type="checkbox"] + label:before,
     input[type="radio"] + label:before {
       background: rgba(255, 255, 255, 0.025);
-<<<<<<< HEAD
-      border-radius: 10px;
-=======
       border-radius: 6px;
->>>>>>> color-testing
       border: solid 2px rgba(255, 255, 255, 0.125);
       content: '';
       display: inline-block;
@@ -1419,15 +1391,6 @@ input[type="radio"] {
     background: #ffffff;
     border-color: #ffffff;
     content: '\f00c';
-<<<<<<< HEAD
-    color: #9046cf; }
-  input[type="checkbox"]:focus + label:before,
-  input[type="radio"]:focus + label:before {
-    border-color: #fde12d; }
-
-input[type="checkbox"] + label:before {
-  border-radius: 10px; }
-=======
     color: #6444e7; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
@@ -1435,7 +1398,6 @@ input[type="checkbox"] + label:before {
 
 input[type="checkbox"] + label:before {
   border-radius: 6px; }
->>>>>>> color-testing
 
 input[type="radio"] + label:before {
   border-radius: 100%; }
@@ -1503,11 +1465,7 @@ input[type="radio"] + label:before {
   display: inline-block;
   position: relative; }
   .image img {
-<<<<<<< HEAD
-    border-radius: 10px;
-=======
     border-radius: 6px;
->>>>>>> color-testing
     display: block; }
   .image.left, .image.right {
     max-width: 40%; }
@@ -1727,11 +1685,7 @@ ul.pagination {
       -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
       transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
       border-bottom: 0;
-<<<<<<< HEAD
-      border-radius: 10px;
-=======
       border-radius: 6px;
->>>>>>> color-testing
       display: inline-block;
       height: 1.5em;
       line-height: 1.5em;
@@ -1742,11 +1696,7 @@ ul.pagination {
       ul.pagination li > .page:hover {
         background-color: rgba(255, 255, 255, 0.025); }
       ul.pagination li > .page.active {
-<<<<<<< HEAD
-        background-color: #fde12d; }
-=======
         background-color: #477bff; }
->>>>>>> color-testing
     ul.pagination li:first-child {
       padding-right: 0.75em; }
     ul.pagination li:last-child {
@@ -1865,42 +1815,26 @@ button,
   input[type="button"].primary,
   button.primary,
   .button.primary {
-<<<<<<< HEAD
-    background-color: #fde12d;
-=======
     background-color: #477bff;
->>>>>>> color-testing
     box-shadow: none; }
     input[type="submit"].primary:hover,
     input[type="reset"].primary:hover,
     input[type="button"].primary:hover,
     button.primary:hover,
     .button.primary:hover {
-<<<<<<< HEAD
-      background-color: #fce23e; }
-=======
       background-color: #5887fe; }
->>>>>>> color-testing
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,
     button.primary:active,
     .button.primary:active {
-<<<<<<< HEAD
-      background-color: #ffe01c; }
-=======
       background-color: #3870ff; }
->>>>>>> color-testing
     input[type="submit"].primary.icon:before,
     input[type="reset"].primary.icon:before,
     input[type="button"].primary.icon:before,
     button.primary.icon:before,
     .button.primary.icon:before {
-<<<<<<< HEAD
-      color: #fee962; }
-=======
       color: #759cff; }
->>>>>>> color-testing
   input[type="submit"].fit,
   input[type="reset"].fit,
   input[type="button"].fit,
@@ -1957,23 +1891,14 @@ button,
     color: white; }
   .features article {
     padding: 1.75em 1.75em 0.1em 1.75em ;
-<<<<<<< HEAD
-    background-color: #9754d1;
-    border-radius: 10px;
-=======
     background-color: #7053e7;
     border-radius: 6px;
->>>>>>> color-testing
     margin: 1.5em 3em 1.5em 0;
     width: calc(50% - 1.5em); }
     .features article:nth-child(2n) {
       margin-right: 0; }
     .features article .image {
-<<<<<<< HEAD
-      border-radius: 10px 10px 0 0;
-=======
       border-radius: 6px 6px 0 0;
->>>>>>> color-testing
       display: block;
       margin-bottom: 1.75em;
       margin-left: -1.75em;
@@ -1981,11 +1906,7 @@ button,
       position: relative;
       width: calc(100% + 3.5em); }
       .features article .image img {
-<<<<<<< HEAD
-        border-radius: 10px 10px 0 0;
-=======
         border-radius: 6px 6px 0 0;
->>>>>>> color-testing
         width: 100%; }
   @media screen and (max-width: 980px) {
     .features article {
@@ -2063,11 +1984,7 @@ button,
         -ms-transition: background-color 0.2s ease-in-out;
         -o-transition: background-color 0.2s ease-in-out;
         transition: background-color 0.2s ease-in-out;
-<<<<<<< HEAD
-        border-radius: 10px;
-=======
         border-radius: 6px;
->>>>>>> color-testing
         box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
         padding: 0 1.35em; }
         #header nav a[href="#menu"]:before {
@@ -2185,13 +2102,8 @@ button,
     -o-transition: opacity 0.35s ease, -o-transform 0.35s ease;
     transition: opacity 0.35s ease, transform 0.35s ease;
     -webkit-overflow-scrolling: touch;
-<<<<<<< HEAD
-    background: #fde12d;
-    border-radius: 10px;
-=======
     background: #477bff;
     border-radius: 6px;
->>>>>>> color-testing
     display: block;
     max-width: 100%;
     opacity: 0;
@@ -2223,11 +2135,7 @@ button,
     #menu .links li {
       padding: 0; }
       #menu .links li a {
-<<<<<<< HEAD
-        border-radius: 10px;
-=======
         border-radius: 6px;
->>>>>>> color-testing
         border: 0;
         display: block;
         font-family: Raleway, Helvetica, sans-serif;
@@ -2238,11 +2146,7 @@ button,
         padding: 0.75em 0;
         text-transform: uppercase; }
         #menu .links li a:hover {
-<<<<<<< HEAD
-          background: #ffe01c; }
-=======
           background: #3870ff; }
->>>>>>> color-testing
   @media screen and (max-width: 736px) {
     #menu .inner {
       max-height: 100%;
@@ -2272,11 +2176,7 @@ body.is-menu-visible #menu {
 /* Banner */
 #banner {
   padding: 10em 0 4.75em 0 ;
-<<<<<<< HEAD
-  background-image: linear-gradient(to top, rgba(144, 70, 207, 0.8), rgba(144, 70, 207, 0.8)), url("../../images/bg.jpg");
-=======
   background: linear-gradient(90deg, #5338c2 0%, #6444e7 35%, #7e65e0 100%);
->>>>>>> color-testing
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center; }
@@ -2387,13 +2287,8 @@ body.is-menu-visible #menu {
   @media screen and (max-width: 1280px) {
     #banner {
       padding: 7em 0 8.25em 0 ;
-<<<<<<< HEAD
-      background-color: #9046cf;
-      background-image: linear-gradient(to top, rgba(144, 70, 207, 0.8), rgba(144, 70, 207, 0.8)), url("../../images/bg.jpg");
-=======
       background-color: #6444e7;
       background-image: linear-gradient(to top, rgba(100, 68, 231, 0.8), rgba(100, 68, 231, 0.8)), url("../../images/bg.jpg");
->>>>>>> color-testing
       background-size: auto, cover;
       background-position: center, center;
       margin-bottom: -6.5em; } }
@@ -2480,11 +2375,7 @@ body.is-menu-visible #menu {
 @media screen and (max-width: 1280px) {
   #wrapper > header {
     padding: 9em 0 6.25em 0 ;
-<<<<<<< HEAD
-    background-color: #9046cf;
-=======
     background-color: #6444e7;
->>>>>>> color-testing
     background-size: auto, cover;
     background-position: center, 0% 30%;
     margin-bottom: -6.5em; } }
@@ -2511,15 +2402,9 @@ body.is-menu-visible #menu {
   position: relative;
   opacity: 0; }
   .wrapper:before {
-<<<<<<< HEAD
-    box-shadow: inset 0 -1px 0 0 #9046cf, 0 1px 0 0 #9046cf; }
-  .wrapper:after {
-    box-shadow: inset 0 -1px 0 0 #9046cf, 0 1px 0 0 #9046cf; }
-=======
     box-shadow: inset 0 -1px 0 0 #6444e7, 0 1px 0 0 #6444e7; }
   .wrapper:after {
     box-shadow: inset 0 -1px 0 0 #6444e7, 0 1px 0 0 #6444e7; }
->>>>>>> color-testing
   .wrapper.alt:before {
     -moz-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -2537,43 +2422,6 @@ body.is-menu-visible #menu {
     margin: 0 auto;
     width: 55em; }
   .wrapper.style2 {
-<<<<<<< HEAD
-    background-color: #9754d1; }
-    .wrapper.style2:before {
-      box-shadow: inset 0 -1px 0 0 #9754d1, 0 1px 0 0 #9754d1; }
-    .wrapper.style2:after {
-      box-shadow: inset 0 -1px 0 0 #9754d1, 0 1px 0 0 #9754d1; }
-  .wrapper.style3 {
-    background-color: #9e61d2; }
-    .wrapper.style3:before {
-      box-shadow: inset 0 -1px 0 0 #9e61d2, 0 1px 0 0 #9e61d2; }
-    .wrapper.style3:after {
-      box-shadow: inset 0 -1px 0 0 #9e61d2, 0 1px 0 0 #9e61d2; }
-  .wrapper.style4 {
-    background-color: #a66fd4; }
-    .wrapper.style4:before {
-      box-shadow: inset 0 -1px 0 0 #a66fd4, 0 1px 0 0 #a66fd4; }
-    .wrapper.style4:after {
-      box-shadow: inset 0 -1px 0 0 #a66fd4, 0 1px 0 0 #a66fd4; }
-  .wrapper.style5 {
-    background-color: #ad7cd6; }
-    .wrapper.style5:before {
-      box-shadow: inset 0 -1px 0 0 #ad7cd6, 0 1px 0 0 #ad7cd6; }
-    .wrapper.style5:after {
-      box-shadow: inset 0 -1px 0 0 #ad7cd6, 0 1px 0 0 #ad7cd6; }
-  .wrapper.style6 {
-    background-color: #b489d9; }
-    .wrapper.style6:before {
-      box-shadow: inset 0 -1px 0 0 #b489d9, 0 1px 0 0 #b489d9; }
-    .wrapper.style6:after {
-      box-shadow: inset 0 -1px 0 0 #b489d9, 0 1px 0 0 #b489d9; }
-  .wrapper.spotlight {
-    background-color: #ffffff; }
-    .wrapper.spotlight:before {
-      box-shadow: inset 0 -1px 0 0 #fde12d, 0 1px 0 0 #fde12d; }
-    .wrapper.spotlight:after {
-      box-shadow: inset 0 -1px 0 0 #fde12d, 0 1px 0 0 #fde12d; }
-=======
     background-color: #7053e7; }
     .wrapper.style2:before {
       box-shadow: inset 0 -1px 0 0 #7053e7, 0 1px 0 0 #7053e7; }
@@ -2609,7 +2457,6 @@ body.is-menu-visible #menu {
       box-shadow: inset 0 -1px 0 0 #477bff, 0 1px 0 0 #477bff; }
     .wrapper.spotlight:after {
       box-shadow: inset 0 -1px 0 0 #477bff, 0 1px 0 0 #477bff; }
->>>>>>> color-testing
     .wrapper.spotlight .inner {
       display: -moz-flex;
       display: -webkit-flex;
@@ -2648,29 +2495,6 @@ body.is-menu-visible #menu {
     .wrapper.spotlight:nth-child(2n - 1) .image {
       margin: 0 0 2em 3em; }
     .wrapper.spotlight.style2:before {
-<<<<<<< HEAD
-      box-shadow: inset 0 -1px 0 0 #ffe01c, 0 1px 0 0 #ffe01c; }
-    .wrapper.spotlight.style2:after {
-      box-shadow: inset 0 -1px 0 0 #ffe01c, 0 1px 0 0 #ffe01c; }
-    .wrapper.spotlight.style3:before {
-      box-shadow: inset 0 -1px 0 0 #ffde0c, 0 1px 0 0 #ffde0c; }
-    .wrapper.spotlight.style3:after {
-      box-shadow: inset 0 -1px 0 0 #ffde0c, 0 1px 0 0 #ffde0c; }
-    .wrapper.spotlight.style4:before {
-      box-shadow: inset 0 -1px 0 0 #fcda00, 0 1px 0 0 #fcda00; }
-    .wrapper.spotlight.style4:after {
-      box-shadow: inset 0 -1px 0 0 #fcda00, 0 1px 0 0 #fcda00; }
-    .wrapper.spotlight.style5:before {
-      box-shadow: inset 0 -1px 0 0 #edcd00, 0 1px 0 0 #edcd00; }
-    .wrapper.spotlight.style5:after {
-      box-shadow: inset 0 -1px 0 0 #edcd00, 0 1px 0 0 #edcd00; }
-    .wrapper.spotlight.style6:before {
-      box-shadow: inset 0 -1px 0 0 #dec000, 0 1px 0 0 #dec000; }
-    .wrapper.spotlight.style6:after {
-      box-shadow: inset 0 -1px 0 0 #dec000, 0 1px 0 0 #dec000; }
-  .wrapper.threeStepSection h1 {
-    border-bottom: solid 2px #9046cf;
-=======
       box-shadow: inset 0 -1px 0 0 #3870ff, 0 1px 0 0 #3870ff; }
     .wrapper.spotlight.style2:after {
       box-shadow: inset 0 -1px 0 0 #3870ff, 0 1px 0 0 #3870ff; }
@@ -2692,7 +2516,6 @@ body.is-menu-visible #menu {
       box-shadow: inset 0 -1px 0 0 #0047fa, 0 1px 0 0 #0047fa; }
   .wrapper.threeStepSection h1 {
     border-bottom: solid 2px #6444e7;
->>>>>>> color-testing
     padding-top: 40px;
     text-align: center;
     padding-bottom: 32px; }
@@ -2810,13 +2633,8 @@ body.is-menu-visible #menu {
       color: #ffffff; }
   @media screen and (max-width: 1280px) {
     #footer {
-<<<<<<< HEAD
-      background-color: #9046cf;
-      background-image: linear-gradient(to top, rgba(144, 70, 207, 0.8), rgba(144, 70, 207, 0.8)), url("../../images/bg.jpg");
-=======
       background-color: #6444e7;
       background-image: linear-gradient(to top, rgba(100, 68, 231, 0.8), rgba(100, 68, 231, 0.8)), url("../../images/bg.jpg");
->>>>>>> color-testing
       background-size: auto, cover;
       background-position: center, center;
       margin-top: -6.5em;
@@ -2900,17 +2718,11 @@ html {
   box-shadow: 4px 4px rgba(0, 0, 0, 0.08); }
 
 #topButton:hover {
-<<<<<<< HEAD
-  background-color: #fde12d; }
-=======
   background-color: #6444e7; }
->>>>>>> color-testing
 
 .expandingPanel {
   height: 98px;
   overflow: hidden; }
-<<<<<<< HEAD
-=======
 
 .wrapper .panRight {
   margin-right: 150px; }
@@ -2922,7 +2734,6 @@ html {
 #banner {
   background: rgb(255, 255, 255);
 }
->>>>>>> color-testing
 
 #banner .inner .bannerText {
   color: black;
@@ -2946,8 +2757,13 @@ html {
     margin-bottom: 8px; }
 
   h2 {
-<<<<<<< HEAD
-    margin-bottom: 4px; } }
+    margin-bottom: 4px; }
+
+  .wrapper .panRight {
+    margin-right: auto; }
+
+  .wrapper .panLeft {
+    margin-left: auto; } }
 .aboutUsColumn {
   min-width: 360px; }
 
@@ -2957,14 +2773,5 @@ html {
 .threeStepSection .threeStepProcessContainer .aboutUsColumn .aboutUsExpand {
   align-self: flex-start;
   margin: 8px 0px 20px 22px; }
-=======
-    margin-bottom: 4px; }
-
-  .wrapper .panRight {
-    margin-right: auto; }
-
-  .wrapper .panLeft {
-    margin-left: auto; } }
->>>>>>> color-testing
 
 /*# sourceMappingURL=main.css.map */
