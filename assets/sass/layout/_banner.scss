@@ -8,12 +8,12 @@
 
 #banner {
   @include padding(10em, 0, (0, 0, _size(wrapper-edges, large) * -0.5, 0));
-  background-image: linear-gradient(
-      to top,
-      transparentize(_palette(bg), 0.2),
-      transparentize(_palette(bg), 0.2)
-    ),
-    url("../../images/bg.jpg");
+  background: linear-gradient(
+    90deg,
+    rgba(83, 56, 194, 1) 0%,
+    rgba(100, 68, 231, 1) 35%,
+    rgba(126, 101, 224, 1) 100%
+  );
   background-size: auto, cover;
 
   background-attachment: fixed, fixed;
