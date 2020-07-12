@@ -2681,7 +2681,8 @@ body.is-menu-visible #menu {
   padding: 10px 64px 40px 64px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  margin-left: 10px; }
 
 .threeStepProcessColumn {
   display: flex;
@@ -2721,7 +2722,7 @@ html {
   background-color: #6444e7; }
 
 .expandingPanel {
-  height: 98px;
+  height: 97px;
   overflow: hidden; }
 
 .wrapper .panRight {
@@ -2751,7 +2752,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: fit-content; }
+    width: fit-content;
+    margin-left: 0px; }
 
   h1.major {
     margin-bottom: 8px; }
@@ -2768,7 +2770,7 @@ html {
   min-width: 360px; }
 
 .aboutUsParagraph {
-  font-size: 19px; }
+  font-size: 18px; }
 
 .threeStepSection .threeStepProcessContainer .aboutUsColumn .aboutUsExpand {
   align-self: flex-start;

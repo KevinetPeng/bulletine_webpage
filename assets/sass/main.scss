@@ -80,6 +80,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-left: 10px;
 }
 
 .threeStepProcessColumn {
@@ -127,7 +128,7 @@ html {
 }
 
 .expandingPanel {
-  height: 98px;
+  height: 97px;
   overflow: hidden;
 }
 
@@ -163,6 +164,7 @@ html {
     flex-direction: column;
     justify-content: space-evenly;
     width: fit-content;
+    margin-left: 0px;
   }
   h1.major {
     margin-bottom: 8px;
@@ -185,7 +187,7 @@ html {
 }
 
 .aboutUsParagraph {
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .threeStepSection .threeStepProcessContainer .aboutUsColumn .aboutUsExpand {
