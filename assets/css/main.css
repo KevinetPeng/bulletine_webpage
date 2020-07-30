@@ -3538,6 +3538,9 @@ body.is-preload #banner a {
   align-items: center;
   padding: 32px 4px;
 }
+.threeStepProcessColumn p {
+  font-size: large;
+}
 
 .threeStepProcessHeading {
   width: fit-content;
