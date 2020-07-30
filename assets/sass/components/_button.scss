@@ -52,20 +52,20 @@ button,
   }
 
   &.primary {
-    background-color: _palette(accent);
+    background-color: _palette(fg-light);
     box-shadow: none;
 
     &:hover {
-      background-color: desaturate(lighten(_palette(accent), 3), 1.5);
+      background-color: desaturate(lighten(_palette(fg-light), 3), 1.5);
     }
 
     &:active {
-      background-color: saturate(darken(_palette(accent), 3), 1.5);
+      background-color: saturate(darken(_palette(fg-light), 3), 1.5);
     }
 
     &.icon {
       &:before {
-        color: mix(_palette(fg-bold), _palette(accent), 25%);
+        color: mix(_palette(fg-bold), _palette(fg-light), 25%);
       }
     }
   }

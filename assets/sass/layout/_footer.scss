@@ -7,6 +7,10 @@
 /* Footer */
 
 #footer {
+  background-color: _palette(fg);
+  background-size: auto, cover;
+
+  background-position: center, center;
   .inner {
     @include padding(5em, 0);
     @include vendor("display", "flex");
@@ -68,13 +72,6 @@
 
   @include breakpoint("<=large") {
     background-color: _palette(fg);
-
-    background-image: linear-gradient(
-        to top,
-        transparentize(_palette(fg), 0.2),
-        transparentize(_palette(fg), 0.2)
-      ),
-      url("../../images/bg.jpg");
 
     background-size: auto, cover;
 
