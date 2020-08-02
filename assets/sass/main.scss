@@ -88,6 +88,10 @@
   flex-direction: column;
   align-items: center;
   padding: 32px 4px;
+  background-color: #e6dddd;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 1px 3px 12px rgba($color: #000000, $alpha: 0.07);
 
   p {
     font-size: large;
@@ -99,6 +103,8 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  text-shadow: 1px 3px 1px rgba($color: #000000, $alpha: 0.07);
+  color: #a18a75;
 }
 
 #threeStepContactButton {
@@ -125,7 +131,7 @@ html {
   font-weight: bolder;
   background-color: _palette(bg1);
   transition: 0.5s;
-  box-shadow: 4px 4px rgba($color: #000000, $alpha: 0.08);
+  box-shadow: 1px 4px 4px rgba($color: #000000, $alpha: 0.08);
 }
 
 #topButton:hover {
@@ -187,8 +193,19 @@ html {
   }
 }
 
+#aboutUs {
+  padding-top: 56px;
+  padding-bottom: 80px;
+  margin-bottom: 0px;
+}
+
+#aboutUs::after {
+  background-image: none;
+}
+
 .aboutUsColumn {
   min-width: 360px;
+  text-align: left;
 }
 
 .aboutUsParagraph {
@@ -207,6 +224,7 @@ html {
 .mySlides2,
 .mySlides3 {
   display: none;
+  box-shadow: 1px 4px 8px rgba($color: #000000, $alpha: 0.14);
 }
 img {
   vertical-align: middle;
@@ -217,6 +235,7 @@ img {
   max-width: 400px;
   position: relative;
   margin: auto;
+  padding-bottom: 64px;
 }
 
 /* Next & previous buttons */
@@ -234,6 +253,7 @@ img {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  background-color: rgba(#000000, 0.04);
 }
 
 /* Position the "next button" to the right */
@@ -247,4 +267,25 @@ img {
 .next:hover {
   background-color: #f1f1f1;
   color: black;
+}
+
+.whatWeDoHeading {
+  font-size: x-large;
+  text-shadow: 1px 2px 1px rgba($color: #000000, $alpha: 0.05);
+}
+
+.whiteText {
+  color: white;
+}
+
+#four {
+  margin-bottom: 0px;
+}
+
+.contactListLink {
+  margin-left: 24px;
+}
+
+ul.contact .contactList {
+  padding-left: 12px;
 }
