@@ -3530,6 +3530,7 @@ body.is-preload #banner a {
   justify-content: space-evenly;
   margin-right: auto;
   margin-left: auto;
+  overflow: hidden;
 }
 
 .threeStepProcessColumn {
