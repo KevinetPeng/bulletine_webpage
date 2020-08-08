@@ -3741,4 +3741,20 @@ ul.contact .contactList {
   padding-left: 12px;
 }
 
+#elsieImage {
+  width: 250px;
+}
+
+#jennImage {
+  width: 300px;
+}
+
+.crop {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
 /*# sourceMappingURL=main.css.map */
